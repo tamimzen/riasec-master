@@ -1,0 +1,175 @@
+#content .container .container .landingContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10vw;
+  margin-top: 44px;
+  height: 330px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#content .container .container .landingContent .landingImage img {
+  width: auto;
+  height: 25vw;
+}
+
+#content .container .container .landingContent .landingText h1 {
+  margin: 0 !important;
+  font-size: 80px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffab00;
+}
+
+#content .container .container .landingContent .landingText h3 {
+  margin: 6px !important;
+  font-size: 23px;
+  opacity: 0.8;
+  line-height: normal;
+  font-weight: 600;
+}
+
+#content .container .container .landingContent .landingText h3 br {
+  content: '';
+}
+
+#content .container .container .landingContent .landingText h3 br:after {
+  content: '';
+}
+
+#content .container .container .artikel-tipe {
+  padding: 30px 52px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(31, 45, 61, 0.1);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+  background: #fff;
+}
+
+#content .container .container .artikel-tipe h3 {
+  font-size: 29px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#content .container .container .artikel-tipe h3 span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffab00;
+}
+
+#content .container .container .artikel-tipe p {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(59, 63, 92, 0.9);
+  letter-spacing: .1em;
+  text-align: justify;
+  text-indent: 50px;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+#content .container .container .artikel-tipe ul {
+  padding: 0;
+}
+
+#content .container .container .artikel-tipe ul li {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: rgba(59, 63, 92, 0.9);
+}
+
+#content .container .container .artikel-tipe ul li:hover {
+  cursor: pointer;
+  color: #ffab00;
+}
+
+#content .container .container .artikel-tipe ul li:hover svg {
+  color: #1b55e2;
+}
+
+#content .container .container .artikel-tipe ul li .icon-svg {
+  display: inline-block;
+  margin-right: 9px;
+}
+
+#content .container .container .artikel-tipe ul li svg {
+  color: #ffab00;
+  width: 19px;
+  height: 19px;
+  vertical-align: bottom;
+}
+
+#content .container .container .artikel-tipe h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+#content .container .container .partner {
+  padding: 30px 52px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(31, 45, 61, 0.1);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+  background: #ffab00;
+}
+
+@media (max-width: 991px) {
+  #content .container .container #artikelTop .landingContent {
+    height: 230px;
+    margin-top: 0;
+  }
+  #content .container .container #artikelTop .landingContent .landingText h1 {
+    font-size: 60px;
+  }
+  #content .container .container #artikelTop .landingContent .landingText h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  #content .container .container #artikelTop .landingContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 300px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-top: 0;
+  }
+  #content .container .container #artikelTop .landingContent .landingImage img {
+    height: 55vw;
+    margin-bottom: 20px;
+  }
+  #content .container .container #artikelTop .landingContent .landingText h1 {
+    font-size: 30px;
+    margin: 0 !important;
+    margin-bottom: 10px;
+  }
+  #content .container .container #artikelTop .landingContent .landingText h3 {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=artikel.css.map */

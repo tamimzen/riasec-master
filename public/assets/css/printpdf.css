@@ -1,0 +1,178 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,600&display=swap');
+
+@page{
+   size: A4 landscape;
+   margin: 0;
+   padding: 0;
+}
+
+:root{
+   --primaryColor: #b8860b;
+   --dotted: #d2691e;
+   --secondaryColor: #373737;
+   --bg:#f5f0da;
+   --ddColor: #212121;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Crimson Text', serif;
+}
+body{
+   width:100%;
+   height:100%;
+}
+section{
+   background: #e2e1e0;
+   width: 100%;
+   height: auto;
+   align-items: center;
+}
+.pdf-card{
+   /* background: url("https://img.pngio.com/hd-coffee-bean-vector-png-247361-coffee-bean-vector-pattern-coffee-bean-vector-png-3333_3333.png"); */
+   background-color: rgba(245, 240, 218, 1);
+   background-repeat: no-repeat;
+   background-blend-mode: overlay;
+   width: 100%;
+   height: auto;
+   padding: 10px;
+   margin:10px;
+   border-radius: 3px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.leafs{
+   padding: 20px 10px;
+   border: 10px solid rgba(184, 134, 11, 1);
+}
+
+.dashes{
+   margin: 0 10px;
+   border-bottom: 7px dotted rgba(210, 105, 30, 1);
+}
+.pdf-card-subtitle{
+   align-items: center;
+   padding: 10px;
+   text-align: center;
+}
+.pdf-card-subtitle h3{
+   font-size: 32px;
+   text-transform: uppercase;
+   font-family: 'Crimson Text', serif;
+   color: rgba(55, 55, 55, 1);
+}
+/* area nama pengguna */
+.cafe-items-container{
+   padding: 20px 10px;
+   margin-top: 50px;
+   align-items: center;
+}
+.cafe-items-container .cafe-items-title{
+   text-align: center;  
+}
+.cafe-items-title h2{
+   font-size: 2.3em;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: rgba(55, 55, 55, 1);
+}
+.cafe-items-title p{
+   font-size: 1.4em;
+   font-weight: 500;
+   font-family: 'Crimson Text', serif;
+   font-style: italic;
+   color: rgba(184, 134, 11, 1);
+   margin-top: 10px;
+}
+/* Area nama tipe */
+dl{
+   padding: 20px 0;
+   text-align: center;
+}
+
+dt{
+   font-size: 40px;
+   font-weight: 600;
+   color: rgba(55, 55, 55, 1);
+   text-transform: uppercase;
+   letter-spacing: 5px;
+}
+
+dd p{
+   font-size: 1.2em;
+   font-style: italic;
+   font-family: 'Crimson Text', serif;
+   font-weight: 400;
+   text-transform: capitalize;
+   letter-spacing: 1px;
+   line-height: 2px;
+   color: rgba(33, 33, 33, 1);
+   margin-left: 1em;
+   margin: 0 0 1em 1em;
+   padding: 5px;
+   line-height: 1.2em;
+}
+
+dd h4{
+   letter-spacing: 1px;
+   font-size: 20px;
+   color: rgba(33, 33, 33, 1);
+}
+
+
+
+/* area statistic tipe */
+.statistic{
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+.statistic h3{
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   padding: 5px;
+   color: rgb(187, 138, 14);
+}
+
+.statistic h5{
+   font-size : 13px;
+   margin-top : 15px;
+}
+
+.statistic .info-presentase{
+   padding: 4px;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 600;
+   color: rgb(95, 95, 95);
+}
+
+.statistic .info-presentase .kiri{
+   padding-right: 50px;
+}
+
+.statistic .info-presentase .kanan{
+   padding-left: 50px;
+}
+
+/* area penutup */
+.place-contact address{
+   justify-content: center;
+   letter-spacing: 2px;
+   margin-top: 30px;
+   font-style: normal;
+   font-family: 'Crimson Text', serif;
+   color:  rgba(33, 33, 33, 1);
+}
+.place-contact address .addtop{
+   font-weight: 600;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+.place-contact address p{
+   font-size: 16px;
+}

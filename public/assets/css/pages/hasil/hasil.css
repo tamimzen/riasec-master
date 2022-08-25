@@ -1,0 +1,337 @@
+body {
+  background-color: #f1f2f3;
+}
+
+#landHasil .landingContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 600px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#landHasil .landingContent .landingText h1 {
+  margin: 0 !important;
+  font-size: 70px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#landHasil .landingContent .landingText span {
+  font-size: 2.6vw;
+  color: #e0501b;
+}
+
+#landHasil .landingContent .landingText h3 {
+  margin: 6px !important;
+  font-size: 25px;
+  opacity: 0.8;
+  line-height: normal;
+  font-weight: 600;
+}
+
+#landHasil .landingContent .landingText h3 br {
+  content: '';
+}
+
+#landHasil .landingContent .landingText h3 br:after {
+  content: '';
+}
+
+#landHasil .landingContent .landingImage img {
+  width: 25vw;
+}
+
+.hasil .hasil-layouting .presentase {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  height: 100%;
+  width: 770px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+}
+
+.hasil .hasil-layouting .presentase .present-heading {
+  margin-bottom: 54px;
+}
+
+.hasil .hasil-layouting .presentase .present-heading h5 {
+  font-size: 23px;
+  display: block;
+  color: #0e1726;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.hasil .hasil-layouting .presentase .present-content {
+  font-size: 16px;
+}
+
+.hasil .hasil-layouting .presentase .present-content .summary-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hasil .hasil-layouting .presentase .present-content .summary-list:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.hasil .hasil-layouting .presentase .present-content .summary-list:nth-child(1) .w-icon {
+  background: #dccff7;
+}
+
+.hasil .hasil-layouting .presentase .present-content .summary-list:nth-child(1) .w-icon svg {
+  color: #5c1ac3;
+}
+
+.hasil .hasil-layouting .presentase .present-content .summary-list:nth-child(2) .w-icon {
+  background: #e6ffbf;
+}
+
+.hasil .hasil-layouting .presentase .present-content .summary-list:nth-child(2) .w-icon svg {
+  color: #009688;
+}
+
+.hasil .hasil-layouting .presentase .present-content .summary-list:nth-child(3) .w-icon {
+  background: #ffeccb;
+}
+
+.hasil .hasil-layouting .presentase .present-content .summary-list:nth-child(3) .w-icon svg {
+  color: #e2a03f;
+}
+
+.hasil .hasil-layouting .presentase .present-content .summary-list:nth-child(4) .w-icon {
+  background: #cbfffb;
+}
+
+.hasil .hasil-layouting .presentase .present-content .summary-list:nth-child(4) .w-icon svg {
+  color: #3fe2c7;
+}
+
+.hasil .hasil-layouting .presentase .present-content .w-icon {
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  height: 34px;
+  width: 34px;
+  margin-right: 12px;
+}
+
+.hasil .hasil-layouting .presentase .present-content .w-icon svg {
+  display: block;
+  width: 17px;
+  height: 17px;
+}
+
+.hasil .hasil-layouting .presentase .present-content .w-summary-details {
+  width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.hasil .hasil-layouting .presentase .present-content .w-summary-details .w-summary-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1px;
+}
+
+.hasil .hasil-layouting .presentase .present-content .w-summary-details .w-summary-info h6 {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #888ea8;
+}
+
+.hasil .hasil-layouting .presentase .present-content .w-summary-details .w-summary-info p {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #888ea8;
+}
+
+.hasil .hasil-layouting .presentase .present-content .w-summary-details .w-summary-stats .progress {
+  margin-bottom: 0;
+  height: 6px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 2px 2px rgba(224, 230, 237, 0.458824), 1px 6px 7px rgba(224, 230, 237, 0.458824);
+          box-shadow: 0 2px 2px rgba(224, 230, 237, 0.458824), 1px 6px 7px rgba(224, 230, 237, 0.458824);
+}
+
+.hasil .hasil-layouting .artikel-tipe {
+  padding: 30px 52px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(31, 45, 61, 0.1);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.hasil .hasil-layouting .artikel-tipe h3 {
+  font-size: 29px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.hasil .hasil-layouting .artikel-tipe h3 span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffab00;
+}
+
+.hasil .hasil-layouting .artikel-tipe p {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(59, 63, 92, 0.9);
+  letter-spacing: .1em;
+  text-align: justify;
+  text-indent: 50px;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.hasil .hasil-layouting .artikel-tipe ul {
+  padding: 0;
+}
+
+.hasil .hasil-layouting .artikel-tipe ul li {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: rgba(59, 63, 92, 0.9);
+  word-wrap: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.hasil .hasil-layouting .artikel-tipe ul li:hover {
+  cursor: pointer;
+  color: #ffab00;
+}
+
+.hasil .hasil-layouting .artikel-tipe ul li:hover svg {
+  color: #1b55e2;
+}
+
+.hasil .hasil-layouting .artikel-tipe ul li .icon-svg {
+  display: inline-block;
+  margin-right: 9px;
+}
+
+.hasil .hasil-layouting .artikel-tipe ul li svg {
+  color: #ffab00;
+  width: 19px;
+  height: 19px;
+  vertical-align: bottom;
+}
+
+.hasil .hasil-layouting .artikel-tipe h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.hasil .hasil-layouting .partner {
+  padding: 30px 52px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(31, 45, 61, 0.1);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+  background: #ffab00;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  #landHasil .landingContent {
+    height: 500px;
+    margin-top: 8vh;
+  }
+}
+
+@media (max-width: 991px) {
+  #landHasil .landingContent {
+    height: 430px;
+    margin-top: 2vh;
+  }
+  #landHasil .landingContent .landingText h1 {
+    font-size: 50px;
+  }
+  #landHasil .landingContent .landingText h3 {
+    font-size: 16px;
+  }
+  .hasil .hasil-layouting .presentase {
+    width: 620px;
+  }
+}
+
+@media (max-width: 767px) {
+  #landHasil .landingContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: 560px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  #landHasil .landingContent .landingText h1 {
+    font-size: 24px;
+    margin: 0 !important;
+    margin-bottom: 10px;
+  }
+  #landHasil .landingContent .landingText h3 {
+    font-size: 14px;
+  }
+  #landHasil .landingContent .landingText .btnmulai {
+    margin: 0 auto;
+  }
+  #landHasil .landingContent .landingText .btnmulai a {
+    font-size: 3vw;
+  }
+  #landHasil .landingContent .landingImage img {
+    width: 52vw;
+    margin-bottom: 20px;
+  }
+  .hasil .hasil-layouting .presentase {
+    width: 360px;
+  }
+}
+/*# sourceMappingURL=hasil.css.map */
